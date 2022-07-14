@@ -1,0 +1,119 @@
+.cart {
+    max-width: 80vw;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.cart__item {
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 1rem;
+}
+
+.cart__item:first-child {
+    border-top: 1px solid #ccc;
+}
+
+.cart__item-description {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cart__item-name {
+    font-size: 1.4rem;
+    color: #1D1F22;
+}
+
+.cart__item-name h3 {
+    margin-top: .5rem;
+    font-weight: 400;
+}
+
+.cart__item-price {
+    margin: 1.5rem 0;
+    font-size: 1.4rem;
+}
+
+.PDP__description-size h5,
+.PDP__description-colors h5,
+.PDP__description-capacity h5 {
+    font-size: 1.2rem;
+}
+
+.PDP__capacity-boxes.cart {
+    margin-bottom: 0;
+}
+
+.cart__item-image {
+    max-width: 230px;
+    height: 250px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+}
+
+.cart__item-image image {
+    max-width: 200px;
+    height: 20px;
+}
+
+.cart__item-buttons {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart__item-buttons button {
+  width: 50px;
+  height: 50px; 
+  font-weight: 400;
+  font-size: 1.7rem;
+  color: #1D1F22;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: transparent;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.image-buttons {
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    transform: translateX(50%);
+}
+
+.image-button {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.total {
+    margin-top: 2rem;
+}
+
+.total h4 {
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.total span {
+    display: inline-block;
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+    font-weight: 700;
+}
+

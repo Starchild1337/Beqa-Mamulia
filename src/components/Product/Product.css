@@ -1,0 +1,54 @@
+.PLP__items-item {
+    max-width: 300px;
+    padding: 1rem;
+    position: relative;
+    transition: all .2s;
+}
+
+.PLP__items-item:hover {
+    transform: scale(1.05);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.PLP__item-img {
+    height: 300px;
+}
+
+.PLP__item-cart_btn {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .2s;
+}
+
+.PLP__item-cart_btn:hover {
+    transform: scale(1.1);
+}
+
+.PLP__item-sold-out {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 1.7rem;
+    color: #8D8F9A;
+}
+
+.PLP__item-desc {
+    margin-top: 2rem;
+    color: #1D1F22;
+}
+
+.PLP__item-name {
+    margin: .5rem 0;
+    font-size: 1.2rem;
+}
+
+.PLP__item-price {
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,33 @@
+.PLP {
+    z-index: 1;
+}
+
+.PLP__items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    row-gap: 5rem;
+    padding-bottom: 1rem;
+}
+
+.PLP__category {
+    width: 90vw;
+    padding: 3rem 0;
+    text-transform: capitalize;
+    margin-left: auto;
+}
+
+
+.PLP__items-link {
+    text-decoration: none;
+}
+
+.PLP__items-link.disabled {
+    cursor: not-allowed;
+}
+
+@media screen and (max-width: 800px) {
+    .PLP__items {
+        grid-template-columns: 1fr 1fr;
+    }
+}

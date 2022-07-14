@@ -1,0 +1,154 @@
+.PDP {
+    width: 80vw;
+    margin: 0 auto;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.PDP__description {
+    min-width: 229px;
+}
+
+.PDP__images {
+    flex: 15%;
+    min-width: 70px;
+    max-width: 12%;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.PDP__images::-webkit-scrollbar {
+    display: none;
+}
+
+.PDP__images img {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.PDP__images img:last-child {
+    border-bottom: none;
+}
+
+.PDP__image-main {
+    margin-right: 8rem;
+    min-width: 150px;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.PDP__description h5 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.PDP__description-name {
+    color: #1D1F22;
+    font-size: 1.5em;
+    margin-bottom: 2rem;
+}
+
+.PDP__description-name h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.PDP__description-name h3 {
+    font-weight: 400;
+}
+
+.PDP__description-sizes,
+.PDP__color-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: .8rem;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+}
+
+.PDP__size-box {
+    width: 45px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+}
+
+.PDP__size-box.selected,
+.PDP__capacity-box.selected {
+    background-color: #1D1F22;
+    color: #fff;
+}
+
+.PDP__color-box {
+    width: 40px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #5ECE7B;
+}
+
+
+.PDP__color-box.selected {
+    outline: 1px solid #5ECE7B;
+    outline-offset: 1px;
+}
+
+.PDP__capacity-boxes {
+    font-family: 'Segoe UI', sans-serif;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.PDP__capacity-box {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+}
+
+.PDP__description-price h4 {
+    font-size: 1.5rem;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-description {
+    margin-bottom: 2rem;
+}
+
+.PDP__description-description {
+    color: #1D1F22;
+}
+
+@media screen and (max-width: 960px) {
+    .PDP__description-name {
+        font-size: 1.2em;
+        margin-bottom: 2rem;
+    }
+
+    .PDP {
+        width: 90vw;
+    }
+    
+    .PDP__image-main {
+        margin-right: 4rem;
+    }
+    .PDP__images {
+        margin-right: 2rem;
+    }
+}

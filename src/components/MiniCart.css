@@ -1,0 +1,157 @@
+.mini-cart {
+    position: absolute;
+    top: 81.95px;
+    padding: 1rem;
+    right: 0;
+    width: 350px;
+    max-height: 600px;
+    z-index: 111;
+    overflow-y: scroll;
+    background-color: #fff;
+}
+
+.mini-cart::-webkit-scrollbar {
+    display: none;
+}
+
+.mini-cart p {
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.mini-cart span {
+    display: inline-block;
+    font-weight: 500;
+}
+
+.mini_cart_buttons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn-order.mini {
+    padding: 12px 8px;
+    margin: 0;
+    border: 1.8px solid transparent;
+}
+
+.btn-view_bag {
+    padding: 12px 8px;
+    font-size: .9rem;
+    background-color: #fff;
+    color: #1D1F22;
+    border: 1.8px solid #1D1F22;
+}
+
+.mini_cart_link {
+    width: 100%;
+}
+
+.total.mini h4 {
+    font-size: 1rem;
+}
+
+.btn-order {
+    display: inline-block;
+    padding: 14px 8px;
+    max-width: 300px;
+    font-size: .9rem;
+    margin-top: .5rem;
+}
+
+.cart__item-name.mini h2 {
+    font-size: 1rem;
+}
+
+.cart__item-name.mini h3 {
+    font-size: .9rem;
+}
+
+.cart__item.mini {
+    padding: .8rem 0;
+}
+
+.cart__item.mini:not(:first-child) {
+    margin-top: 2rem;
+}
+
+.cart__item-description.mini {
+    min-width: 120px;
+}
+
+.cart__item-price.mini {
+    font-size: 1rem;
+    margin: .5rem 0;
+}
+
+.cart__item-image.mini {
+    height: auto;
+}
+
+.cart__item-buttons.mini {
+    margin: 0 1rem;
+}
+
+.cart__item-buttons.mini button {
+    width: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #1D1F22;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.PDP__color-boxes.mini,
+.PDP__description-sizes.mini {
+    gap: .3rem;
+    margin-bottom: 0;
+}
+
+.PDP__color-boxes.mini {
+    margin-bottom: .5rem;
+}
+
+.PDP__color-box.mini {
+    width: 18px;
+    height: 18px;
+}
+
+.PDP__size-box.mini {
+    width: 26px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #1D1F22;
+    cursor: pointer;
+}
+
+.PDP__capacity-boxes.mini {
+    gap: .5rem;
+    margin-bottom: 1rem;
+}
+
+.PDP__capacity-box.mini {
+    width: 35px;
+    height: 35px;
+    font-size: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PDP__description-colors.mini h5,
+.PDP__description-capacity.mini h5,
+.PDP__description-size.mini h5 {
+    font-size: .8rem;
+}
+
+.PDP__description-colors.mini,
+.PDP__description-size.mini {
+    margin: .5rem 0;
+}
